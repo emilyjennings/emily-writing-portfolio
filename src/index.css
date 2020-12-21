@@ -1,5 +1,9 @@
+. {
+  background-color: #044B52;
+}
+
 body {
   margin: 0;
-  background: #044B52,
+  background: #044B52;
   color: #F86FC9
 }
