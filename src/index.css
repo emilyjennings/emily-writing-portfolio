@@ -1,9 +1,106 @@
+:root {
+  --main-color: #044B52;
+  --secondary-color: #F86FC9;
+  --alt-color: #e084af;
+  --bright-color: #53BFA4;
+  --pink-color: #fabeda;
+  --yellow-color: #FACFAC;
+  --grey-color: #8d8499;
+  --main-font: 'PT Serif', serif;
+  --sub-font: 'Yellowtail', cursive;
+  --alt-font: 'Open Sans Condensed', serif;
+  --pacifico-font: 'Alfa Slab One', cursive;
+}
+
 . {
-  background-color: #044B52;
+  background-color: var(--main-color);
+}
+
+a:hover {
+  color: var(--pink-color)
 }
 
 body {
   margin: 0;
-  background: #044B52;
-  color: #F86FC9
+  background: var(--main-color);
+  color: var(--secondary-color)
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.logo img {
+  height: 300px
+}
+
+.navbar {
+  background-color: var(--main-color);
+  height: 40px;
+  width: 100%;
+  top: 0;
+  position: fixed
+}
+
+.navbar a {
+  color: var(--bright-color);
+  text-decoration: none;
+  float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 5px 10px;
+  text-align: center;
+  font-family: var(--alt-font);
+  font-size: 20px;
+  font-weight: bold;
+  width: auto
+}
+
+.Body {
+  width: 100%
+}
+
+.Body a, .Body a:visited {
+  color: var(--secondary-color)
+}
+
+.blog-card {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  margin: 20px 5%;
+  border: 5px solid var(--secondary-color);
+}
+
+@media only screen and (max-width: 800px) {
+  .profile img {
+    width: 50%;
+  }
+
+  .logo img {
+    height: 200px
+  }
+
+  .navbar {
+    margin: 0 5%;
+    padding-top: 8px;
+    height: 30px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar a {
+    font-size: 15px;
+    width: 33.3333%;
+    margin: 5px auto
+  }
+
+  .blog-card {
+    display: block;
+    width: 100%
+  }
+
+
+
 }
