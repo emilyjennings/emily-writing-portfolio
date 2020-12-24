@@ -1,6 +1,11 @@
 import React from 'react';
 
 import saveme from '../img/saveme.jpg'
+import scrooge from '../img/scrooge.jpg'
+import enlightenment from '../img/enlightenment.jpg'
+import beyonce from '../img/beyonce.jpg'
+import gut from '../img/gut.jpg'
+import foursteps from '../img/foursteps.jpg'
 
 class Body extends React.Component {
 
@@ -12,11 +17,43 @@ class Body extends React.Component {
         "link": "https://medium.com/live-your-life-on-purpose/save-me-from-drowning-single-motherhood-in-the-pandemic-fcb2b2114e?sk=01ed26cdf62f57a3942c6fdf5ce43fd6",
         "thumbnail": saveme,
         "title": "Save Me from Drowning: Single Motherhood in the Pandemic",
-        "intro": "Six months ago, my husband left. Disappeared. Suddenly I found myself in a pandemic alone with our four-year-old daughter and a full-time job. It has been a challenge, to say the least. Sometimes I needed someone to save me from drowning in the expectations and obligations of life.",
-
+        "intro": "It’s absurd what society expects of moms.",
+        "published": "Live Your Life on Purpose"
       },
       {
-
+        "link": "https://medium.com/mystic-minds/scrooges-dark-night-of-the-soul-proves-that-narcissists-can-wake-up-3bbc39ac3829?sk=9a203342438825b1b689215591796288",
+        "thumbnail": scrooge,
+        "title": "Scrooge’s Dark Night of the Soul Proves that Narcissists Can Wake Up",
+        "intro": "Just like Scrooge, narcissists need a traumatic event to awaken and raise their vibration",
+        "published": "Mystic Minds"
+      },
+      {
+        "link": "https://medium.com/illumination/why-your-enlightenment-matters-now-more-than-ever-542496a95a3e?sk=09a9714c647695315a19adb6981830f0",
+        "thumbnail": enlightenment,
+        "title": "Why Your Enlightenment Matters Now More Than Ever",
+        "intro": "This lifetime is available for you to ascend, so why wouldn’t you?",
+        "published": "ILLUMINATION"
+      },
+      {
+        "link": "https://medium.com/mystic-minds/beyonc%C3%A9s-black-is-king-proves-she-is-awake-29a5b766c883?sk=b61c2d405ad189c62e24db4dbad1bfeb",
+        "thumbnail": beyonce,
+        "title": "Beyoncé’s Black is King Proves She is Awake",
+        "intro": "The oneness of reality and the messages of the divine soul pervade this film",
+        "published": "Mystic Minds"
+      },
+      {
+        "link": "https://medium.com/the-innovation/mindfulness-drastically-improved-my-gut-health-ca2be4c080a5",
+        "thumbnail": gut,
+        "title": "Mindfulness Drastically Improved My Gut Health",
+        "intro": "How I got rid of heartburn and began to clean myself with Ayurveda",
+        "published": "The Innovation"
+      },
+      {
+        "link": "https://medium.com/the-innovation/four-steps-to-begin-and-enjoy-your-meditation-practice-b30ca5e48c14?sk=9bd33b086315b045af7d1313c5719a4c",
+        "thumbnail": foursteps,
+        "title": "Four Steps to Begin and Enjoy Your Meditation Practice",
+        "intro": "Just one take on how to reach bliss",
+        "published": "The Innovation"
       }
     ]
   };
@@ -27,13 +64,14 @@ class Body extends React.Component {
     this.state.posts.forEach((item) => {
        output += `
        <div class="blog-card">
+        <a href="${item.link}">
          <div class="blog__content">
-          <a href="${item.link}">
-            <img src="${item.thumbnail}" class="blog__topImg"></img>
-            <div class="blog__title">${item.title}</div>
+            <img src="${item.thumbnail}" class="blog-img"></img>
+            <h2 class="blog__title">${item.title}</h2>
             <p class="blog__intro">${item.intro}</p>
-          </a>
-        </div>
+            <p class="publication">Published in ${item.published}</p>
+          </div>
+        </a>
       </div>`
 
     })
