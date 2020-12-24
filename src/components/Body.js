@@ -6,6 +6,7 @@ import enlightenment from '../img/enlightenment.jpg'
 import beyonce from '../img/beyonce.jpg'
 import gut from '../img/gut.jpg'
 import foursteps from '../img/foursteps.jpg'
+import feminine from '../img/feminine.jpg'
 
 class Body extends React.Component {
 
@@ -13,6 +14,13 @@ class Body extends React.Component {
   super(props);
   this.state = {
     posts: [
+      {
+        "link": "https://medium.com/mystic-minds/get-excited-for-a-new-era-of-feminine-energy-1ff89aa93c70?sk=d8a94970f2e4ae6198e7d7c919f8ca31",
+        "thumbnail": feminine,
+        "title": "Get Excited for a New Era of Feminine Energy",
+        "intro": "The balance of male and female is tipping and the matriarchy is coming.",
+        "published": "Mystic Minds"
+      },
       {
         "link": "https://medium.com/live-your-life-on-purpose/save-me-from-drowning-single-motherhood-in-the-pandemic-fcb2b2114e?sk=01ed26cdf62f57a3942c6fdf5ce43fd6",
         "thumbnail": saveme,
