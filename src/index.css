@@ -86,7 +86,7 @@ body {
 }
 
 .blog-card:hover {
-  background-color: var(--main-color)
+  background-color: var(--pink-color)
 }
 
 .blog__content {

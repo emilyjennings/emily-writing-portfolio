@@ -1,18 +1,24 @@
 import Header from "./components/Header.js"
 import Body from "./components/Body.js"
 import Navbar from "./components/Navbar.js"
+import About from "./components/About.js"
+import Contact from "./components/Contact.js"
+
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        < Navbar />
-        < Header />
-        < Body />
-      </header>
-    </div>
+    <Router >
+      <div className="App">
+          < Navbar />
+          < Header />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/" component={Body} />
+          <Route exact path="/contact" component={Contact} />
+      </div>
+    </ Router >
   );
 }
 
