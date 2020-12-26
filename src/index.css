@@ -63,6 +63,10 @@ body {
   width: auto
 }
 
+.social {
+  float: right;
+}
+
 .Body {
   width: 100%
 }
@@ -145,9 +149,9 @@ body {
   }
 
   .navbar a {
-    font-size: 15px;
-    width: 33.3333%;
-    margin: 5px auto
+    font-size: 13px;
+    width: 15%;
+    margin: 5px 1px
   }
 
   .blog-card {
@@ -159,6 +163,20 @@ body {
     text-align: center
 
   }
+
+  .social {
+    float: right;
+    width: 30%;
+
+  }
+
+  .social a {
+    width: 25%
+  }
+
+  /* .social {
+    visibility: hidden;
+  } */
 
 
 

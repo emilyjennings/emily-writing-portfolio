@@ -7,6 +7,8 @@ import beyonce from '../img/beyonce.jpg'
 import gut from '../img/gut.jpg'
 import foursteps from '../img/foursteps.jpg'
 import feminine from '../img/feminine.jpg'
+import tune from '../img/tune.jpg'
+import abusive from '../img/abusive.jpg'
 
 class Body extends React.Component {
 
@@ -20,13 +22,6 @@ class Body extends React.Component {
         "title": "Get Excited for a New Era of Feminine Energy",
         "intro": "The balance of male and female is tipping and the matriarchy is coming.",
         "published": "Mystic Minds"
-      },
-      {
-        "link": "https://medium.com/live-your-life-on-purpose/save-me-from-drowning-single-motherhood-in-the-pandemic-fcb2b2114e?sk=01ed26cdf62f57a3942c6fdf5ce43fd6",
-        "thumbnail": saveme,
-        "title": "Save Me from Drowning: Single Motherhood in the Pandemic",
-        "intro": "It’s absurd what society expects of moms.",
-        "published": "Live Your Life on Purpose"
       },
       {
         "link": "https://medium.com/mystic-minds/scrooges-dark-night-of-the-soul-proves-that-narcissists-can-wake-up-3bbc39ac3829?sk=9a203342438825b1b689215591796288",
@@ -62,7 +57,28 @@ class Body extends React.Component {
         "title": "Four Steps to Begin and Enjoy Your Meditation Practice",
         "intro": "Just one take on how to reach bliss",
         "published": "The Innovation"
-      }
+      },
+      {
+        "link": "https://medium.com/mindfully-speaking/how-to-mindfully-tune-yourself-to-the-frequency-of-the-woods-88ceff066964",
+        "thumbnail": tune,
+        "title": "How to Mindfully Tune Yourself to the Frequency of the Woods",
+        "intro": "Listening to nature, talking to trees, and connecting with the Earth can enhance your mental health",
+        "published": "Mindfully Speaking"
+      },
+      {
+        "link": "https://medium.com/spiritual-secrets/why-its-hard-to-leave-our-abusive-partners-57bb7bceaf06",
+        "thumbnail": abusive,
+        "title": "Why It’s Hard to Leave Our Abusive Partners",
+        "intro": "A transcendental look at the subtle nature of relationships",
+        "published": "Spiritual Secrets"
+      },
+      {
+        "link": "https://medium.com/live-your-life-on-purpose/save-me-from-drowning-single-motherhood-in-the-pandemic-fcb2b2114e?sk=01ed26cdf62f57a3942c6fdf5ce43fd6",
+        "thumbnail": saveme,
+        "title": "Save Me from Drowning: Single Motherhood in the Pandemic",
+        "intro": "It’s absurd what society expects of moms.",
+        "published": "Live Your Life on Purpose"
+      },
     ]
   };
 }

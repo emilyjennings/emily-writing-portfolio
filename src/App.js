@@ -6,7 +6,14 @@ import Contact from "./components/Contact.js"
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+
 import './App.css';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faTwitter, faMedium, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+// import { } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faTwitter, faMedium, faLinkedin)
 
 function App() {
   return (
