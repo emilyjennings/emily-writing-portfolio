@@ -8,7 +8,7 @@ function Navbar() {
       <div className="nav-link"><Link to="/">Home</Link></div>
       <div className="nav-link"><Link to="/about">About</Link></div>
       <div className="nav-link"><Link to="/contact">Contact</Link></div>
-      <div className="nav-link"><Link to="https://shaktimindfulawakening.com">Blog</Link></div>
+      <div className="nav-link"><a href="https://shaktimindfulawakening.com">Blog</a></div>
       <div class="social">
         <a href="https://twitter.com/Phillylosophy"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
         <a href="https://awakening-journey.medium.com/"><FontAwesomeIcon icon={['fab', 'medium']} /></a>
