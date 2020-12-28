@@ -9,6 +9,7 @@ function About() {
           <img src={profile} alt="" />
           <p>I write about wellness, parenting, consciousness, and spirituality.</p>
           <p>With the world in its current state, I believe my written words are the way to help us all start to heal. I write on <a href="https://awakening-journey.medium.com/">Medium</a> and also created a personal blog about wellness and spirituality called <a href="https://www.shaktimindfulawakening.com">Shakti Mindful Awakening.</a></p>
+          <p>I am a single mom and a very driven creative human living in Maryland. I love walks in nature and meditating in silence.</p>
         </div>
       </div>
     </div>
