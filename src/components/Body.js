@@ -24,6 +24,13 @@ class Body extends React.Component {
         "published": "Mystic Minds"
       },
       {
+        "link": "https://medium.com/the-innovation/four-steps-to-begin-and-enjoy-your-meditation-practice-b30ca5e48c14?sk=9bd33b086315b045af7d1313c5719a4c",
+        "thumbnail": foursteps,
+        "title": "Four Steps to Begin and Enjoy Your Meditation Practice",
+        "intro": "Just one take on how to reach bliss",
+        "published": "The Innovation"
+      },
+      {
         "link": "https://medium.com/mystic-minds/scrooges-dark-night-of-the-soul-proves-that-narcissists-can-wake-up-3bbc39ac3829?sk=9a203342438825b1b689215591796288",
         "thumbnail": scrooge,
         "title": "Scrooge’s Dark Night of the Soul Proves that Narcissists Can Wake Up",
@@ -49,13 +56,6 @@ class Body extends React.Component {
         "thumbnail": gut,
         "title": "Mindfulness Drastically Improved My Gut Health",
         "intro": "How I got rid of heartburn and began to clean myself with Ayurveda",
-        "published": "The Innovation"
-      },
-      {
-        "link": "https://medium.com/the-innovation/four-steps-to-begin-and-enjoy-your-meditation-practice-b30ca5e48c14?sk=9bd33b086315b045af7d1313c5719a4c",
-        "thumbnail": foursteps,
-        "title": "Four Steps to Begin and Enjoy Your Meditation Practice",
-        "intro": "Just one take on how to reach bliss",
         "published": "The Innovation"
       },
       {
