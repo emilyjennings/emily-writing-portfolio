@@ -20,7 +20,8 @@ a:hover {
 }
 
 p {
-  margin: 5px 30px;
+  margin-bottom: 30px;
+  width: 60%;
   font-size: 1.2em
 }
 
