@@ -9,6 +9,8 @@ import foursteps from '../img/foursteps.jpg'
 import feminine from '../img/feminine.jpg'
 import tune from '../img/tune.jpg'
 import abusive from '../img/abusive.jpg'
+import frozen from '../img/frozen.jpg'
+import gratitude from '../img/gratitude.jpg'
 
 class Body extends React.Component {
 
@@ -31,11 +33,32 @@ class Body extends React.Component {
         "published": "The Innovation"
       },
       {
-        "link": "https://medium.com/mystic-minds/scrooges-dark-night-of-the-soul-proves-that-narcissists-can-wake-up-3bbc39ac3829?sk=9a203342438825b1b689215591796288",
-        "thumbnail": scrooge,
-        "title": "Scrooge’s Dark Night of the Soul Proves that Narcissists Can Wake Up",
-        "intro": "Just like Scrooge, narcissists need a traumatic event to awaken and raise their vibration",
-        "published": "Mystic Minds"
+        "link": "https://www.shaktimindfulawakening.com/4-essential-spiritual-lessons-from-disneys-frozen-ii-that-might-surprise-you/",
+        "thumbnail": frozen,
+        "title": "4 Essential Spiritual Lessons from Disney's Frozen II",
+        "intro": "Climate change, racism, injustice, and personal growth — and how your spirit guides can offer guidance in them all",
+        "published": "Shakti Mindful Awakening and Spiritual Secrets"
+      },
+      {
+        "link": "https://medium.com/the-innovation/mindfulness-drastically-improved-my-gut-health-ca2be4c080a5",
+        "thumbnail": gut,
+        "title": "Mindfulness Drastically Improved My Gut Health",
+        "intro": "How I got rid of heartburn and began to clean myself with Ayurveda",
+        "published": "The Innovation"
+      },
+      {
+        "link": "https://medium.com/mindfully-speaking/how-to-mindfully-tune-yourself-to-the-frequency-of-the-woods-88ceff066964",
+        "thumbnail": tune,
+        "title": "How to Mindfully Tune Yourself to the Frequency of the Woods",
+        "intro": "Listening to nature, talking to trees, and connecting with the Earth can enhance your mental health",
+        "published": "Mindfully Speaking"
+      },
+      {
+        "link": "https://www.shaktimindfulawakening.com/how-to-cultivate-gratitude-even-in-a-pandemic/",
+        "thumbnail": gratitude,
+        "title": "How to Cultivate Gratitude Even in a Pandemic",
+        "intro": "As the harvest ends, we are reminded of the energy that sustains us",
+        "published": "Shakti Mindful Awakening"
       },
       {
         "link": "https://medium.com/illumination/why-your-enlightenment-matters-now-more-than-ever-542496a95a3e?sk=09a9714c647695315a19adb6981830f0",
@@ -52,19 +75,13 @@ class Body extends React.Component {
         "published": "Mystic Minds"
       },
       {
-        "link": "https://medium.com/the-innovation/mindfulness-drastically-improved-my-gut-health-ca2be4c080a5",
-        "thumbnail": gut,
-        "title": "Mindfulness Drastically Improved My Gut Health",
-        "intro": "How I got rid of heartburn and began to clean myself with Ayurveda",
-        "published": "The Innovation"
+        "link": "https://medium.com/mystic-minds/scrooges-dark-night-of-the-soul-proves-that-narcissists-can-wake-up-3bbc39ac3829?sk=9a203342438825b1b689215591796288",
+        "thumbnail": scrooge,
+        "title": "Scrooge’s Dark Night of the Soul Proves that Narcissists Can Wake Up",
+        "intro": "Just like Scrooge, narcissists need a traumatic event to awaken and raise their vibration",
+        "published": "Mystic Minds"
       },
-      {
-        "link": "https://medium.com/mindfully-speaking/how-to-mindfully-tune-yourself-to-the-frequency-of-the-woods-88ceff066964",
-        "thumbnail": tune,
-        "title": "How to Mindfully Tune Yourself to the Frequency of the Woods",
-        "intro": "Listening to nature, talking to trees, and connecting with the Earth can enhance your mental health",
-        "published": "Mindfully Speaking"
-      },
+
       {
         "link": "https://medium.com/spiritual-secrets/why-its-hard-to-leave-our-abusive-partners-57bb7bceaf06",
         "thumbnail": abusive,
