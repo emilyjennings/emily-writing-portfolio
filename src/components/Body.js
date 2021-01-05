@@ -11,6 +11,7 @@ import tune from '../img/tune.jpg'
 import abusive from '../img/abusive.jpg'
 import frozen from '../img/frozen.jpg'
 import gratitude from '../img/gratitude.jpg'
+import depression from '../img/busstop.jpg'
 
 class Body extends React.Component {
 
@@ -81,13 +82,19 @@ class Body extends React.Component {
         "intro": "Just like Scrooge, narcissists need a traumatic event to awaken and raise their vibration",
         "published": "Mystic Minds"
       },
-
       {
         "link": "https://medium.com/spiritual-secrets/why-its-hard-to-leave-our-abusive-partners-57bb7bceaf06",
         "thumbnail": abusive,
         "title": "Why It’s Hard to Leave Our Abusive Partners",
         "intro": "A transcendental look at the subtle nature of relationships",
         "published": "Spiritual Secrets"
+      },
+      {
+        "link": "https://medium.com/modern-parent/my-severe-pregnancy-depression-that-ill-never-forget-aad41c24c77e",
+        "thumbnail": depression,
+        "title": "My Severe Pregnancy Depression That I’ll Never Forget",
+        "intro": "I couldn't understand why I was so sad.",
+        "published": "Modern Parent"
       },
       {
         "link": "https://medium.com/live-your-life-on-purpose/save-me-from-drowning-single-motherhood-in-the-pandemic-fcb2b2114e?sk=01ed26cdf62f57a3942c6fdf5ce43fd6",
