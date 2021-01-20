@@ -16,6 +16,7 @@ import kidsparents from '../img/kidsparents.png'
 import sad from '../img/SAD.png'
 import prebirth from '../img/prebirth.png'
 import signs from '../img/signs.jpg'
+import busy from '../img/busy.jpg'
 
 class Body extends React.Component {
 
@@ -52,6 +53,13 @@ class Body extends React.Component {
         "published": "Shakti Mindful Awakening"
       },
       {
+        "link": "https://medium.com/modern-parent/how-to-meditate-for-busy-people-69edb8e5ca0d",
+        "thumbnail": busy,
+        "title": "Meditation for Busy, Stressed-Out Parents",
+        "intro": "When the world affords you little peace, here is how to seize the moments you have.",
+        "published": "Modern Parent"
+      },
+      {
         "link": "https://www.shaktimindfulawakening.com/signs-of-awakening/",
         "thumbnail": signs,
         "title": "What is a Spiritual Awakening? Know the Signs",
@@ -64,13 +72,6 @@ class Body extends React.Component {
         "title": "Four Steps to Begin and Enjoy Your Meditation Practice",
         "intro": "Just one take on how to reach bliss",
         "published": "The Innovation"
-      },
-      {
-        "link": "https://www.shaktimindfulawakening.com/4-essential-spiritual-lessons-from-disneys-frozen-ii-that-might-surprise-you/",
-        "thumbnail": frozen,
-        "title": "4 Essential Spiritual Lessons from Disney's Frozen II",
-        "intro": "Climate change, racism, injustice, and personal growth — and how your spirit guides can offer guidance in them all",
-        "published": "Shakti Mindful Awakening and Spiritual Secrets"
       },
       {
         "link": "https://medium.com/the-innovation/mindfulness-drastically-improved-my-gut-health-ca2be4c080a5",
@@ -127,14 +128,7 @@ class Body extends React.Component {
         "title": "My Severe Pregnancy Depression That I’ll Never Forget",
         "intro": "I couldn't understand why I was so sad.",
         "published": "Modern Parent"
-      },
-      {
-        "link": "https://medium.com/live-your-life-on-purpose/save-me-from-drowning-single-motherhood-in-the-pandemic-fcb2b2114e?sk=01ed26cdf62f57a3942c6fdf5ce43fd6",
-        "thumbnail": saveme,
-        "title": "Save Me from Drowning: Single Motherhood in the Pandemic",
-        "intro": "It’s absurd what society expects of moms.",
-        "published": "Live Your Life on Purpose"
-      },
+      }
     ]
   };
 }
