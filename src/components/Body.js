@@ -1,6 +1,5 @@
 import React from 'react';
 
-import saveme from '../img/saveme.jpg'
 import scrooge from '../img/scrooge.jpg'
 import enlightenment from '../img/enlightenment.jpg'
 import beyonce from '../img/beyonce.jpg'
@@ -9,14 +8,13 @@ import foursteps from '../img/foursteps.jpg'
 import feminine from '../img/feminine.jpg'
 import tune from '../img/tune.jpg'
 import abusive from '../img/abusive.jpg'
-import frozen from '../img/frozen.jpg'
 import gratitude from '../img/gratitude.jpg'
 import depression from '../img/busstop.jpg'
 import kidsparents from '../img/kidsparents.png'
 import sad from '../img/SAD.png'
 import prebirth from '../img/prebirth.png'
 import signs from '../img/signs.jpg'
-import busy from '../img/busy.jpg'
+import busy from '../img/busy.png'
 
 class Body extends React.Component {
 
