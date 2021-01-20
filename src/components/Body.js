@@ -15,6 +15,7 @@ import depression from '../img/busstop.jpg'
 import kidsparents from '../img/kidsparents.png'
 import sad from '../img/sad.png'
 import prebirth from '../img/prebirth.png'
+import signs from '../img/signs.jpg'
 
 class Body extends React.Component {
 
@@ -48,6 +49,13 @@ class Body extends React.Component {
         "thumbnail": prebirth,
         "title": "My Daughter's Pre-Birth Memories of 'The Tunnel'",
         "intro": "Tunnels, before-birth experiences, and greater purpose: a story of how children have a strong connection to their divine selves.",
+        "published": "Shakti Mindful Awakening"
+      },
+      {
+        "link": "https://www.shaktimindfulawakening.com/signs-of-awakening/",
+        "thumbnail": signs,
+        "title": "What is a Spiritual Awakening? Know the Signs",
+        "intro": "Signs you are awakening: strong feelings and purpose, sometimes after trauma. It feels like Dorothy felt opening her door on the Land of Oz.",
         "published": "Shakti Mindful Awakening"
       },
       {
