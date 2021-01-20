@@ -14,6 +14,7 @@ import gratitude from '../img/gratitude.jpg'
 import depression from '../img/busstop.jpg'
 import kidsparents from '../img/kidsparents.png'
 import sad from '../img/sad.png'
+import prebirth from '../img/prebirth.png'
 
 class Body extends React.Component {
 
@@ -40,6 +41,13 @@ class Body extends React.Component {
         "thumbnail": sad,
         "title": "The Ayurvedic Reason You Experience SAD",
         "intro": "If you’re experiencing SAD (Seasonal Affective Disorder) in the winter, you are not alone. In fact, you may be experiencing something that many other people struggle with, and it is also understandable and explainable through Ayurveda.",
+        "published": "Shakti Mindful Awakening"
+      },
+      {
+        "link": "https://www.shaktimindfulawakening.com/pre-birth-memories/",
+        "thumbnail": prebirth,
+        "title": "My Daughter's Pre-Birth Memories of 'The Tunnel'",
+        "intro": "Tunnels, before-birth experiences, and greater purpose: a story of how children have a strong connection to their divine selves.",
         "published": "Shakti Mindful Awakening"
       },
       {
