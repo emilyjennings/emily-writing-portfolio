@@ -13,6 +13,7 @@ import frozen from '../img/frozen.jpg'
 import gratitude from '../img/gratitude.jpg'
 import depression from '../img/busstop.jpg'
 import kidsparents from '../img/kidsparents.png'
+import sad from '../img/sad.png'
 
 class Body extends React.Component {
 
@@ -32,6 +33,13 @@ class Body extends React.Component {
         "thumbnail": kidsparents,
         "title": "Mindfulness and Meditation for Kids and Parents",
         "intro": "You can find stillness even with kids around and improve your quality of life.",
+        "published": "Shakti Mindful Awakening"
+      },
+      {
+        "link": "https://www.shaktimindfulawakening.com/ayurveda-and-winter/",
+        "thumbnail": sad,
+        "title": "The Ayurvedic Reason You Experience SAD",
+        "intro": "If you’re experiencing SAD (Seasonal Affective Disorder) in the winter, you are not alone. In fact, you may be experiencing something that many other people struggle with, and it is also understandable and explainable through Ayurveda.",
         "published": "Shakti Mindful Awakening"
       },
       {
