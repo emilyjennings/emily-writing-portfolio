@@ -13,7 +13,7 @@ import frozen from '../img/frozen.jpg'
 import gratitude from '../img/gratitude.jpg'
 import depression from '../img/busstop.jpg'
 import kidsparents from '../img/kidsparents.png'
-import sad from '../img/sad.png'
+import sad from '../img/SAD.png'
 import prebirth from '../img/prebirth.png'
 import signs from '../img/signs.jpg'
 
