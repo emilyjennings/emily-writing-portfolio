@@ -41,21 +41,21 @@ class Body extends React.Component {
         "link": "https://www.shaktimindfulawakening.com/ayurveda-and-winter/",
         "thumbnail": sad,
         "title": "The Ayurvedic Reason You Experience SAD",
-        "intro": "If you’re experiencing SAD (Seasonal Affective Disorder) in the winter, you are not alone. In fact, you may be experiencing something that many other people struggle with, and it is also understandable and explainable through Ayurveda.",
+        "intro": "If you’re experiencing SAD (Seasonal Affective Disorder) in the winter, you are not alone.",
         "published": "Shakti Mindful Awakening"
       },
       {
         "link": "https://www.shaktimindfulawakening.com/pre-birth-memories/",
         "thumbnail": prebirth,
         "title": "My Daughter's Pre-Birth Memories of 'The Tunnel'",
-        "intro": "Tunnels, before-birth experiences, and greater purpose: a story of how children have a strong connection to their divine selves.",
+        "intro": "A story of how children have a strong connection to their divine selves.",
         "published": "Shakti Mindful Awakening"
       },
       {
         "link": "https://www.shaktimindfulawakening.com/signs-of-awakening/",
         "thumbnail": signs,
         "title": "What is a Spiritual Awakening? Know the Signs",
-        "intro": "Signs you are awakening: strong feelings and purpose, sometimes after trauma. It feels like Dorothy felt opening her door on the Land of Oz.",
+        "intro": "Signs you are awakening: strong feelings and purpose, sometimes after trauma.",
         "published": "Shakti Mindful Awakening"
       },
       {
