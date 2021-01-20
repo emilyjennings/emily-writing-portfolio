@@ -12,6 +12,7 @@ import abusive from '../img/abusive.jpg'
 import frozen from '../img/frozen.jpg'
 import gratitude from '../img/gratitude.jpg'
 import depression from '../img/busstop.jpg'
+import kidsparents from '../img/kidsparents.png'
 
 class Body extends React.Component {
 
@@ -25,6 +26,13 @@ class Body extends React.Component {
         "title": "Get Excited for a New Era of Feminine Energy",
         "intro": "The balance of male and female is tipping and the matriarchy is coming.",
         "published": "Mystic Minds"
+      },
+      {
+        "link": "https://www.shaktimindfulawakening.com/mindfulness-meditation-for-kids-and-parents/",
+        "thumbnail": kidsparents,
+        "title": "Mindfulness and Meditation for Kids and Parents",
+        "intro": "You can find stillness even with kids around and improve your quality of life.",
+        "published": "Shakti Mindful Awakening"
       },
       {
         "link": "https://medium.com/the-innovation/four-steps-to-begin-and-enjoy-your-meditation-practice-b30ca5e48c14?sk=9bd33b086315b045af7d1313c5719a4c",
